@@ -1,0 +1,24 @@
+.fornt_view{
+    
+    height: 1100px;
+    width: auto;
+}
+.exterior{
+    height: 1100px;
+    width: auto;
+}
+.inside1{
+    height: 700px;
+    width: auto; 
+}
+.inside2{
+    height: 1100px;
+    width: auto;
+}
+.side_view{
+    height: 1250px;
+    width: auto;
+}
+.text{
+    text-align: center;
+}

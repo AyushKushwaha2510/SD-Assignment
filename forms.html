@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Form</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Booking Form</title>
+    </head>
+
+    <body>
+        <h2 class = "Customer">Customer Details :</h2>
+
+        <form action="/submit-form" method="POST">
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+
+            <label for="age">Age:</label>
+            <input type="age" id="age" name="aeg" required>
+            <br><br>
+
+
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+            <br><br>
+
+
+            <label>Advance Payment</label>
+            <input type="checkbox" id="payment" name="payment" value="yes">
+
+            <br><br>
+
+
+            <label for="dealer">Dealer Location</label>
+            <select id="Location" name="location" required>
+                <option value="">Select your dealer location</option>
+                <option value="us">Delhi</option>
+                <option value="uk">Mumbai</option>
+                <option value="in">Bengaluru</option>
+                <option value="ca">Hyderabad</option>
+            </select>
+            <br><br>
+
+            <label for="appointment-date">Select Appointment Date:</label>
+            <input type="date" id="appointment-date" name="appointment-date" required>
+            <br><br>
+
+
+            <input type="submit" value="Confirm Appointment">
+
+            <input type="submit" value="Register">
+        </form>
+    </body>
+
+    </html>
+</body>
+
+</html>

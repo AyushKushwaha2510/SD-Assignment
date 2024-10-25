@@ -1,0 +1,192 @@
+/* body styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('rolls-roycetempuscollectionrear34.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+header {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+}
+
+/* navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navbar .logo img {
+    width: 50px;
+    height: auto;
+    margin-left: 800px;
+    
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content:  center;
+}
+
+
+.dealer {
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    left: 100px;
+    margin-left: 400px;
+}
+
+.search input {
+    padding: 8px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.search input::placeholder {
+    color: whitesmoke;
+}
+
+
+.dealer {
+    position: relative;
+    font-size: 20px;
+    
+}
+
+/* dropdown styling*/
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 16px rgba(69, 108, 180, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    min-width: 150px;
+}
+
+.dropdown li {
+    list-style: none;
+}
+
+.dropdown li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px 0;
+    transition: color 0.3s;
+}
+
+.dropdown li a:hover {
+    color: lightblue;
+}
+
+
+.dealer:hover .dropdown {
+    display: block;
+}
+
+
+/* intro-text styling */
+.intro-text {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.intro-text h5 {
+    font-size: 34px;
+    margin: 0;
+    color: whitesmoke;
+    letter-spacing: 3px;
+}
+
+.intro-text h2 {
+    font-size: 80px;
+    margin: 10px 0;
+    color: white;
+}
+
+.booking-text h4 {
+    font-size: 24px;
+    margin: 15px;
+    color: whitesmoke;
+    text-align: center;
+    
+}
+
+
+.booking-text h4 a {
+    text-decoration: none;
+    color: white;
+}
+
+.booking-text h4 a:hover {
+    color: lightblue;
+}
+.booking-text {
+    position: absolute;
+    bottom: 100px; 
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 24px;
+    color: whitesmoke;
+}
+.gallery{
+    position: absolute;
+    bottom: 5px; 
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 24px;
+    color: whitesmoke;
+    
+}
+
+.gallery a{
+    color: aliceblue;
+    border: 2px solid #08074f;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+.menu a{
+    color: aliceblue;
+    border: 2px solid #08074f;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 50px;
+    font-size: 20px;
+    
+}
